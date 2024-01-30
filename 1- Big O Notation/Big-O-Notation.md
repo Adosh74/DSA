@@ -40,20 +40,22 @@
 
 ```js
 function logAtLeast5(n) {
-    for (var i = 1; i <= Math.max(5, n); i++) {
+    for (let i = 1; i <= Math.max(5, n); i++) {
         console.log(i);
     }
 }
 ```
 
--   The Complexity: O(n)
+-   Time Complexity: O(n)
 
 ```js
 function logAtMost5(n) {
-    for (var i = 1; i <= Math.min(5, n); i++) {
+    for (let i = 1; i <= Math.min(5, n); i++) {
         console.log(i);
     }
 }
 ```
 
--   The Complexity: O(1)
+-   Time Complexity: O(1)
+
+## Space Complexity
