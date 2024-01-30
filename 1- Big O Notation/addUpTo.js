@@ -9,9 +9,9 @@
 
 // *** same function using mathematical formula
 
-const addUpTo = (n) => {
-    return n * (n + 1) / 2;
-}
+const addUpTo = n => {
+    return (n * (n + 1)) / 2;
+};
 const start = Date.now();
 console.log(addUpTo(1000000000));
 console.log('time take', Date.now() - start, 'ms');
