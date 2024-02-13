@@ -9,7 +9,7 @@
 
 ## Problem Solving Technique
 
-1. Understand the Problem
+1. [Understand the Problem](#1-understand-the-problem)
 
 2. Explore Concrete Examples
 3. Break It Down
